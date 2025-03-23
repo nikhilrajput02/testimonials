@@ -1,0 +1,105 @@
+body {
+    background-color: white;
+    text-align: center;
+}
+
+/* Header */
+.header-container {
+    background-color: plum;
+    margin: 0px;
+}
+
+.header-container > h1 {
+    color: black;
+    margin: 0px;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+
+.header-container p {
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Section-part */
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+/* Testimonial-card */
+.testimonial-card {
+    width: 650px;
+    height: 320px;
+    background: #f2e8ff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #6a0dad;
+}
+
+/* Testimonial-card2 */
+.testimonial-card2 {
+    width: 650px;
+    height: 320px;
+    background: white;
+    padding: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #6a0dad;
+}
+
+/* Profile section */
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Profile image */
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+/* Profile information */
+.profile-info h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profile-info .verified {
+    margin: 10px 0px;
+    font-size: 14px;
+    text-align: left;
+    color: gray;
+}
+
+/* Testimonial text */
+.testimonial-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Quote text */
+.testimonial-quote {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 10px;
+    text-align: left;
+    color: #333;
+}
